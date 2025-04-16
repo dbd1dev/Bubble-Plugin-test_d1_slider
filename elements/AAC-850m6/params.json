@@ -1,0 +1,95 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "autobinding_value": "number",
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 45,
+        "width": 400
+    },
+    "display": "D1_slider",
+    "fields": {
+        "AAD": {
+            "caption": "min",
+            "doc": "Valor inicial",
+            "editor": "DynamicValue",
+            "name": "min",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAE": {
+            "caption": "max",
+            "doc": "Valor final",
+            "editor": "DynamicValue",
+            "name": "max",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "step",
+            "doc": "Valor de incremento",
+            "editor": "DynamicValue",
+            "name": "step",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "initial_content",
+            "doc": "Debe estar dentro de los límites mínimo y máximo",
+            "editor": "DynamicValue",
+            "name": "initial_content",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Display value?",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "disvalue",
+            "optional": false,
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAI": {
+            "caption": "bg_color",
+            "default_val": "rgba(237, 237, 237, 1)",
+            "editor": "Color",
+            "in_style": true,
+            "name": "bgcolor",
+            "rank": 5
+        },
+        "AAJ": {
+            "caption": "range_color",
+            "default_val": "rgba(23,162,184,1)",
+            "doc": "Sólo si el valor de visualización es \"Sí",
+            "editor": "Color",
+            "in_style": true,
+            "name": "rangecolor",
+            "rank": 6
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAL": {
+            "caption": "value",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "value",
+            "value": "number"
+        }
+    },
+    "support_autobinding": true
+}
